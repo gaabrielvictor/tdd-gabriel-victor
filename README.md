@@ -18,7 +18,7 @@ Cada tarefa possui um **título**, **descrição** e um **status** (pendente ou 
 
 ---
 ```
-⚙️ Estrutura do Projeto**
+⚙️ Estrutura do Projeto
 
 tdd-gabriel-victor/
 │
