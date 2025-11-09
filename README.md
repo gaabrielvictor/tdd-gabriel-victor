@@ -61,7 +61,7 @@ O desenvolvimento seguiu rigorosamente o ciclo **TDD (Test Driven Development)**
 ## 🧰 **Como executar o projeto**
 
 ### 1️⃣ Clonar o repositório
-```bash
+
 git clone https://github.com/seuusuario/tdd-gabriel-victor.git
 cd tdd-gabriel-victor
 
