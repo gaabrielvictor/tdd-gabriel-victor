@@ -66,7 +66,7 @@ git clone https://github.com/seuusuario/tdd-gabriel-victor.git
 cd tdd-gabriel-victor
 
 
-2️⃣ Criar e ativar o ambiente virtual
+### 2️⃣ Criar e ativar o ambiente virtual
 python -m venv venv
 
 
@@ -79,10 +79,10 @@ Linux/Mac:
 
 source venv/bin/activate
 
-3️⃣ Instalar as dependências
+### 3️⃣ Instalar as dependências
 pip install pytest
 
-4️⃣ Executar os testes
+### 4️⃣ Executar os testes
 pytest -v
 
 
@@ -91,7 +91,7 @@ Se tudo estiver certo, o terminal mostrará algo assim:
 tests/test_todo_list.py::test_adicionar_tarefa PASSED
 tests/test_todo_list.py::test_concluir_tarefa PASSED
 
-💬 Minha Experiência Utilizando TDD
+### 💬 Minha Experiência Utilizando TDD
 
 Durante o desenvolvimento deste projeto, foi possível perceber como o TDD melhora a qualidade do código e reduz erros.
 Seguir o ciclo RED → GREEN → REFACTOR ajuda a construir funcionalidades de forma mais segura e incremental.
@@ -99,7 +99,7 @@ Seguir o ciclo RED → GREEN → REFACTOR ajuda a construir funcionalidades de f
 Além disso, o processo torna o código mais limpo e fácil de manter, já que cada nova funcionalidade começa validada por testes automatizados.
 O TDD me fez pensar primeiro no comportamento esperado do código, e só depois na implementação.
 
-👨‍💻 Autor
+### 👨‍💻 Autor
 
 Gabriel Victor
 Projeto desenvolvido para a disciplina de Engenharia de Software – UNIFACISA.
