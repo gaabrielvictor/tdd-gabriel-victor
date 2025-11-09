@@ -17,7 +17,7 @@ Cada tarefa possui um **título**, **descrição** e um **status** (pendente ou 
 - 🛠️ (Planejado) Remover uma tarefa  
 
 ---
-
+```
 ## ⚙️ **Estrutura do Projeto**
 
 tdd-gabriel-victor/
@@ -31,7 +31,7 @@ tdd-gabriel-victor/
 │
 └── tests/
 └── test_todo_list.py
-
+```
 ---
 
 ## 🧩 **Tecnologias Utilizadas**
@@ -102,5 +102,6 @@ O TDD me fez pensar primeiro no comportamento esperado do código, e só depois 
 ### 👨‍💻 Autor
 
 Gabriel Victor
-Projeto desenvolvido para a disciplina de Engenharia de Software – UNIFACISA.
+Projeto desenvolvido para a disciplina de ELABORAR PLANO DE TESTES E
+VALIDAÇÃO DE UM SOFTWARE – UNIFACISA.
 📅 Novembro de 2025
