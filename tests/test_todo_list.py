@@ -1,9 +1,7 @@
-from src.todo_list import ToDoList
-
-def test_adicionar_tarefa():
+def test_concluir_tarefa():
     todo = ToDoList()
-    todo.adicionar_tarefa("Estudar TDD", "Ler sobre o ciclo Red-Green-Refactor")
+    todo.adicionar_tarefa("Estudar PyTest", "Aprender asserts")
+    todo.concluir_tarefa("Estudar PyTest")
     tarefas = todo.listar_tarefas()
 
-    assert len(tarefas) == 1
-    assert tarefas[0]["titulo"] == "Estudar TDD"
+    assert tarefas[0]["concluida"] is True
