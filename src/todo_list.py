@@ -1,9 +1,16 @@
 class ToDoList:
     def __init__(self):
-        self._tarefas = []
+        self.tarefas = []
 
     def adicionar_tarefa(self, titulo, descricao):
-        self._tarefas.append({"titulo": titulo, "descricao": descricao, "concluida": False})
+        tarefa = {"titulo": titulo, "descricao": descricao, "concluida": False}
+        self.tarefas.append(tarefa)
 
     def listar_tarefas(self):
-        return list(self._tarefas)
+        return self.tarefas
+
+    def concluir_tarefa(self, titulo):
+        for tarefa in self.tarefas:
+            if tarefa["titulo"] == titulo:
+                tarefa["concluida"] = True
+                break
