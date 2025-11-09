@@ -1,10 +1,9 @@
 class ToDoList:
     def __init__(self):
-        self.tarefas = []
+        self._tarefas = []
 
     def adicionar_tarefa(self, titulo, descricao):
-        tarefa = {"titulo": titulo, "descricao": descricao, "concluida": False}
-        self.tarefas.append(tarefa)
+        self._tarefas.append({"titulo": titulo, "descricao": descricao, "concluida": False})
 
     def listar_tarefas(self):
-        return self.tarefas
+        return list(self._tarefas)
